@@ -14,6 +14,7 @@ class Perlin {
   private:
     int m_permTable[256];
     double m_scale;
+    size_t m_seed;
     inline int hash(int x, int y, int z = -1) const;
 };
 
